@@ -14,6 +14,8 @@
 		BB39D04B25EDDC4300CC387B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB39D04A25EDDC4300CC387B /* GameViewController.swift */; };
 		BB39D04E25EDDC4300CC387B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB39D04C25EDDC4300CC387B /* Main.storyboard */; };
 		BB39D05025EDDC4500CC387B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB39D04F25EDDC4500CC387B /* Assets.xcassets */; };
+		BB39D05F25EDE53800CC387B /* Gameprotocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB39D05E25EDE53800CC387B /* Gameprotocol.swift */; };
+		BB39D06325EDE5C700CC387B /* Gameobject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB39D06225EDE5C700CC387B /* Gameobject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BB39D04D25EDDC4300CC387B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB39D04F25EDDC4500CC387B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB39D05125EDDC4500CC387B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB39D05E25EDE53800CC387B /* Gameprotocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameprotocol.swift; sourceTree = "<group>"; };
+		BB39D06225EDE5C700CC387B /* Gameobject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gameobject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		BB39D04125EDDC4300CC387B /* MAPD724 game */ = {
 			isa = PBXGroup;
 			children = (
+				BB39D06125EDE58F00CC387B /* Core */,
 				BB39D04225EDDC4300CC387B /* AppDelegate.swift */,
 				BB39D04425EDDC4300CC387B /* GameScene.sks */,
 				BB39D04625EDDC4300CC387B /* Actions.sks */,
@@ -68,6 +73,15 @@
 				BB39D05125EDDC4500CC387B /* Info.plist */,
 			);
 			path = "MAPD724 game";
+			sourceTree = "<group>";
+		};
+		BB39D06125EDE58F00CC387B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BB39D05E25EDE53800CC387B /* Gameprotocol.swift */,
+				BB39D06225EDE5C700CC387B /* Gameobject.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB39D06325EDE5C700CC387B /* Gameobject.swift in Sources */,
 				BB39D04925EDDC4300CC387B /* GameScene.swift in Sources */,
+				BB39D05F25EDE53800CC387B /* Gameprotocol.swift in Sources */,
 				BB39D04B25EDDC4300CC387B /* GameViewController.swift in Sources */,
 				BB39D04325EDDC4300CC387B /* AppDelegate.swift in Sources */,
 			);
